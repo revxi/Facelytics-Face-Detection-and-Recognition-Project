@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+ENV/
+env.bak/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Logs and local testing files
+*.log
+*.csv
+*.sqlite3
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Environment files
+.env
+
+# Face images (optional - if you want to avoid uploading them)
+known_faces/
+sample/
+
+# OS files
+Thumbs.db
+desktop.ini
