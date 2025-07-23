@@ -30,7 +30,12 @@ Facelytics is a Python-based AI web application that detects and recognizes face
 
 ## 📁 Folder Structure
 
-facelytics/ ├── known_faces/          # Images of registered users ├── sample/               # Sample test images ├── app.py                # Main Streamlit application ├── requirements.txt      # Required Python packages └── README.md             # You're reading this!
+facelytics/ 
+├── known_faces/          # Images of registered users
+├── sample/               # Sample test images 
+├── app.py                # Main Streamlit application 
+├── requirements.txt      # Required Python packages 
+└── README.md             # You're reading this!
 
 ---
 
@@ -98,9 +103,4 @@ Facelytics is built by Diksha (Reverie), a passionate final-year Computer Engine
 📜 License
 
 This project is licensed under the MIT License.
-
-
----
-
-
 
