@@ -1,6 +1,7 @@
 {
   "name": "Python 3",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "features": {},
   "customizations": {
     "vscode": {
       "extensions": [
@@ -9,7 +10,6 @@
       ]
     }
   },
-  "features": {},
-  "postCreateCommand": "pip install -r requirements.txt",
+  "postCreateCommand": "apt-get update && apt-get install -y build-essential cmake libgl1-mesa-glx libglib2.0-0 && pip install -r requirements.txt",
   "remoteUser": "vscode"
 }
